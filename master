@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Landscapes</title>
+    <style>
+        /* Basic styling */
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #f8f8f8;
+            padding: 10px;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+        }
+
+        /* Mathematical shapes */
+        .shapes {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 20px;
+        }
+
+        .circle, .triangle, .square {
+            width: 100px;
+            height: 100px;
+        }
+
+        .circle {
+            border-radius: 50%;
+            background-color: #3498db;
+        }
+
+        .triangle {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid #e74c3c;
+        }
+
+        .square {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Master Landscapes</h1>
+    </header>
+
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="tel:01001701567">Services</a>
+        <a href="#deals">Deals</a>
+    </div>
+
+    <!-- Mathematical Shapes -->
+    <div class="shapes">
+        <div class="circle"></div>
+        <div class="triangle"></div>
+        <div class="square"></div>
+    </div>
+
+</body>
+</html>
